@@ -26,12 +26,26 @@
     }
 
     .card {
-      min-width: 100px;
-      min-height: 100px;
+      width: 100px;
+      height: 100px;
       background-color: #C8AD68;
       border-width: 2px;
       border-color: #413924;
       border-radius: 15px;
+    }
+
+    .primary-dark {
+      color: #413924;
+    }
+
+    a {
+      color: #413924;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #413924;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -89,16 +103,33 @@
       </div>
     </div>
     <h5 class="text-color-light mb-3">Available On</h5>
-    <div class="row">
-      <div class="card col mx-3 d-flex justify-content-center align-items-center">
-        <i class="fa-brands fa-android fa-2xl mb-3 mt-4"></i>
-        <h5>android</h5>
-      </div>
-      <div class="card col mx-3 d-flex justify-content-center align-items-center">
-        <i class="fa-brands fa-apple fa-2xl mb-3 mt-4"></i>
-        <h5>iOS</h5>
-      </div>
+    <div class="row mb-5">
+      <a href="">
+        <div class="card col mx-3 d-flex justify-content-center align-items-center shadow">
+          <i class="fa-brands fa-android fa-2xl mb-3 mt-4 primary-dark"></i>
+          <h5>android</h5>
+        </div>
+      </a>
+      <a href="https://apps.apple.com/us/app/marksman-journal/id1613606007">
+        <div class="card col mx-3 d-flex justify-content-center align-items-center shadow">
+          <i class="fa-brands fa-apple fa-2xl mb-3 mt-4 primary-dark"></i>
+          <h5>iOS</h5>
+        </div>
+      </a>
+
     </div>
+    <h5 class="mb-4 text-color-light">Contact</h5>
+    <div class="d-flex row align-items-center justify-content-center mb-2"><i
+        class="fa-solid fa-phone fa-xl text-color-light mr-3"></i>
+      <h5 class="text-color-light">1 (866) 855-5471</h5>
+    </div>
+    <div class="d-flex row align-items-center justify-content-center mb-5"><i
+        class="fa-solid fa-envelope fa-xl text-color-light mr-3"></i>
+      <h5 class="text-color-light">support@marksmanjournal.com</h5>
+    </div>
+    <h5 class=" mb-5 mb-5">©
+      <script>document.write(/\d{4}/.exec(Date())[0])</script> That Guy's Garage LLC
+    </h5>
 </body>
 
 </html>
